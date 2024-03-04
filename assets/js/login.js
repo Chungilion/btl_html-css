@@ -58,6 +58,12 @@ loginForm.addEventListener('submit', (event) => {
   } else {
     loginStatusNoti(false, 'Tài khoản hoặc mật khẩu không hợp lệ.');
   }
+
+  if (username === 'admin' && password ==='admin') {
+    window.location.href = 'admin.html';
+  } else {
+    loginStatusNoti(false, 'Tài khoản hoặc mật khẩu không hợp lệ.');
+  }
 });
 
 const loginStatusNoti = (isPositive, message) => {
