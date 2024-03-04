@@ -1,0 +1,162 @@
+[
+  {
+    "question": "What is the correct name of RAID storage system?",
+    "choices": [
+      "a. Redundant Array of Independent Disks",
+      "b. Reused Array of Independent Disks",
+      "c. Redundance Array of Independent Disks",
+      "d. Redundant Array of Individual Disks"
+    ],
+    "answer": "a"
+  },
+  {
+    "question": "What does CPU stand for?",
+    "choices": [
+      "a. Central Processing Unit",
+      "b. Central Processor Unit",
+      "c. Computer Personal Unit",
+      "d. Centralized Processing Unit"
+    ],
+    "answer": "a"
+  },
+  {
+    "question": "What does HTML stand for?",
+    "choices": [
+      "a. Hyper Text Markup Language",
+      "b. Hyperlinks and Text Markup Language",
+      "c. Home Tool Markup Language",
+      "d. Hyper Text Manipulation Language"
+    ],
+    "answer": "a"
+  },
+  {
+    "question": "Which programming language is commonly used for web development?",
+    "choices": [
+      "a. Python",
+      "b. Java",
+      "c. JavaScript",
+      "d. C++"
+    ],
+    "answer": "c"
+  },
+  {
+    "question": "In the context of software development, what does the acronym API stand for?",
+    "choices": [
+      "a. Application Programming Interface",
+      "b. Advanced Programming Interface",
+      "c. Automated Processing Interface",
+      "d. Abstract Protocol Interface"
+    ],
+    "answer": "a"
+  },
+  {
+    "question": "Which programming paradigm emphasizes the use of functions as first-class citizens?",
+    "choices": [
+      "a. Object-Oriented Programming (OOP)",
+      "b. Functional Programming (FP)",
+      "c. Procedural Programming (PP)",
+      "d. Declarative Programming (DP)"
+    ],
+    "answer": "b"
+  },
+  {
+    "question": "What is the purpose of version control systems like Git in software development?",
+    "choices": [
+      "a. Code compilation",
+      "b. Code deployment",
+      "c. Code collaboration and version tracking",
+      "d. Code optimization"
+    ],
+    "answer": "c"
+  },
+  {
+    "question": "Which database model is based on a tabular structure with rows and columns?",
+    "choices": [
+      "a. NoSQL",
+      "b. Relational Database",
+      "c. Graph Database",
+      "d. Document-Oriented Database"
+    ],
+    "answer": "b"
+  },
+  {
+    "question": "In the context of data engineering, what is ETL an abbreviation for?",
+    "choices": [
+      "a. Extract, Transform, Load",
+      "b. Efficient Textual Language",
+      "c. External Table Linking",
+      "d. Event Triggering Logic"
+    ],
+    "answer": "a"
+  },
+  {
+    "question": "Which programming language is commonly used for data analysis and manipulation in the field of data science?",
+    "choices": [
+      "a. Java",
+      "b. Python",
+      "c. R",
+      "d. C#"
+    ],
+    "answer": "b"
+  },
+  {
+    "question": "What is the purpose of a Docker container in software development?",
+    "choices": [
+      "a. Containerizing liquids",
+      "b. Isolating and packaging applications",
+      "c. Managing network connections",
+      "d. Creating graphical user interfaces"
+    ],
+    "answer": "b"
+  },
+  {
+    "question": "In the context of databases, what is the ACID acronym used to represent?",
+    "choices": [
+      "a. Automated Code Integration and Deployment",
+      "b. Atomicity, Consistency, Isolation, Durability",
+      "c. Advanced Computational Intelligence Design",
+      "d. Application of Cryptographic Integrity Directives"
+    ],
+    "answer": "b"
+  },
+  {
+    "question": "What is the primary function of a load balancer in a web application infrastructure?",
+    "choices": [
+      "a. Ensuring data integrity",
+      "b. Distributing incoming traffic across multiple servers",
+      "c. Securing the network connections",
+      "d. Managing database queries"
+    ],
+    "answer": "b"
+  },
+  {
+    "question": "Which data storage system is optimized for handling and querying large amounts of structured data?",
+    "choices": [
+      "a. NoSQL",
+      "b. Object Storage",
+      "c. Data Warehouse",
+      "d. Key-Value Store"
+    ],
+    "answer": "c"
+  },
+  {
+    "question": "What is the purpose of the 'Map' phase in the MapReduce programming model?",
+    "choices": [
+      "a. Sorting data",
+      "b. Filtering data",
+      "c. Applying a function to each element",
+      "d. Transforming and grouping data"
+    ],
+    "answer": "c"
+  },
+  {
+    "question": "Which type of testing focuses on evaluating the system's performance under expected and peak load conditions?",
+    "choices": [
+      "a. Unit testing",
+      "b. Integration testing",
+      "c. Performance testing",
+      "d. Regression testing"
+    ],
+    "answer": "c"
+  }
+]
