@@ -1,5 +1,7 @@
 const USERNAME = 'test@gmail.com';
 const PASSWORD = '123123';
+const ADMIN = 'admin';
+const ADMIN_PASSWORD = 'admin123';
 const PASSWORD_RULE = {
   containNumber: true,
   containUpperCase: true,
@@ -59,7 +61,7 @@ loginForm.addEventListener('submit', (event) => {
     loginStatusNoti(false, 'Tài khoản hoặc mật khẩu không hợp lệ.');
   }
 
-  if (username === 'admin' && password ==='admin') {
+  if (username === ADMIN && password === ADMIN_PASSWORD) {
     window.location.href = 'admin.html';
   } else {
     loginStatusNoti(false, 'Tài khoản hoặc mật khẩu không hợp lệ.');
