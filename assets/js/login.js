@@ -57,13 +57,10 @@ loginForm.addEventListener('submit', (event) => {
   // end validation
   if (username === USERNAME && password === PASSWORD) {
     window.location.href = 'main.html';
-  } else {
-    loginStatusNoti(false, 'Tài khoản hoặc mật khẩu không hợp lệ.');
-  }
-
-  if (username === ADMIN && password === ADMIN_PASSWORD) {
-    window.location.href = 'admin.html';
-  } else {
+  } else if (username === ADMIN && password === ADMIN_PASSWORD) {
+    window.location.href = 'admin.html'; // Redirect to admin.html for administrators
+    return;
+  }else {
     loginStatusNoti(false, 'Tài khoản hoặc mật khẩu không hợp lệ.');
   }
 });
